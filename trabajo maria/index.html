@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería V&M Saludable</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Pastelería V&M Saludable</h1>
+            </div>
+            <div class="slogan-container">
+                <p class="slogan">El placer de comer sin culpas</p>
+            </div>
+        </div>
+        
+        <div class="order-now">
+            <a href="https://wa.me/+59173492702" class="order-button">Ordenar Ahora</a>
+        </div>
+    </header>
+    
+
+    <section class="description">
+        <div class="description-content">
+            <h2>Productos Saludables y Deliciosos</h2>
+            <p>En Pastelería V&M Saludable nos preocupamos por tu salud. Por eso, nuestros productos son elaborados con ingredientes naturales, sin azúcares refinados y pensados especialmente para personas que cuidan su bienestar, incluyendo aquellas con diabetes.</p>
+            <p>Creamos postres que no solo son deliciosos, sino también saludables, para que todos puedan disfrutar de un dulce momento sin preocupaciones.</p>
+        </div>
+    </section>    
+
+    <!-- Primera Sección Hero - Naranja -->
+    <section class="hero hero-naranja">
+        <div class="hero-content">
+            <img src="imagenes/torata mil hojas.png" alt="torta mil hojas" class="hero-img">
+            <div class="hero-text">
+                <h2>torta mil hojas</h2>
+                <p>La clásica que nunca decepciona. Suave, crocante y saludable.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="learn-more">Aprende más</a>
+                    <a href="https://wa.me/+59173492702" class="order-now">Ordenar Ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Segunda Sección Hero - Rosado (Opciones de Ingredientes) -->
+    <section class="hero hero-rosado">
+        <div class="hero-content">
+            <img src="imagenes/logouu.png" alt="Pastel de Vainilla" class="hero-img logo-img"> <!-- Clase adicional logo-img -->
+            <div class="hero-text">
+                <h2>Sabores e ingredientes</h2>
+                <p>Según tu necesidad selecciona cuál de estos ingredientes quieres mantener fuera de tu torta mil hojas.</p>
+                <div class="hero-buttons">
+                    <button class="ingredient-btn" data-ingredient="lactosa">Sin lactosa</button>
+                    <button class="ingredient-btn" data-ingredient="azucar">Sin azúcar</button>
+                    <button class="ingredient-btn" data-ingredient="gluten">Sin gluten</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Cuadro deslizante para mostrar las opciones -->
+    <div class="ingredient-slide" id="ingredient-slide">
+        <img id="ingredient-img" src="" alt="Imagen del Ingrediente">
+        <p id="ingredient-desc">Descripción del ingrediente</p>
+    </div>
+
+   <!-- Segunda Sección Hero - Amarillo (Opciones de Nuevas Selecciones) -->
+<section class="hero hero-amarillo">
+    <div class="hero-content">
+        <img src="imagenes/cajas.png" alt="Opción Nueva" class="hero-img">
+        <div class="hero-text">
+            <h2>Tamaños y Precios</h2>
+            <p>Selecciona el tamaño de tu producto según las porciones que desees.</p>
+            <div class="hero-buttons">
+                <button class="extra-option-btn" data-option="opcion1">25cm de diametro</button>
+                <button class="extra-option-btn" data-option="opcion2">35cm de diametro</button>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- Cuadro deslizante para la sección amarilla -->
+<div class="extra-slide" id="extra-slide">
+    <img id="extra-img" src="" alt="Imagen de la Opción">
+    <p id="extra-desc">Descripción de la opción</p>
+</div>
+
+
+    <footer>
+        <p>&copy; Pastelería V&M Saludable</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
